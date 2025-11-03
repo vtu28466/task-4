@@ -1,0 +1,26 @@
+numbers = [10, 5, 20, 15]
+
+numbers.append(25)
+numbers.append(30)
+numbers.append(2)
+
+print("List after adding elements:", numbers)
+
+numbers.remove(15)
+print("List after removing 15:", numbers)
+
+numbers.sort()
+print("List in ascending order:", numbers)
+
+numbers.sort(reverse=True)
+print("List in descending order:", numbers)
+
+minimum = min(numbers)
+maximum = max(numbers)
+print("Minimum element:", minimum)
+print("Maximum element:", maximum)
+
+total = sum(numbers)
+average = total / len(numbers)
+print("Sum of elements:", total)
+print("Average of elements:", average)
